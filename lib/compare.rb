@@ -1,7 +1,4 @@
-require 'Time'
-
 class Birthdate
-
 
 	attr_accessor :convert_answer, :compare
 
