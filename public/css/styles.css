@@ -1,0 +1,92 @@
+
+/*#######GENERAL#####*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #000;
+  background-color: #00ffe7;
+}
+
+/*#######PADDING AND MARGINS#######*/
+
+
+.container {
+	padding: 0 15px;
+}
+
+
+/*########FONTS##########*/
+
+@font-face {
+	font-family: 'go bold';
+	src: url('/fonts/gobold-webfont.eot'); 
+	src: url('/fonts/gobold-webfont.eot') format('embedded-opentype'),
+	     url('/fonts/gobold-webfont.woff') format('woff'),
+	     url('/fonts/gobold-webfont.ttf')  format('truetype'), 
+	     url('/fonts/gobold-webfont.svg') format('svg'); 
+	}
+
+@font-face {
+	font-family: 'go bold light';
+	src: url('/fonts/gobold_light-webfont.eot'); 
+	src: url('/fonts/gobold_light-webfont.eot') format('embedded-opentype'),
+	     url('/fonts/gobold_light-webfont.woff') format('woff'),
+	     url('/fonts/gobold_light-webfont.ttf')  format('truetype'), 
+	     url('/fonts/gobold_light-webfont.svg') format('svg'); 
+	}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: 'go bold', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #00b2a2;
+}
+
+h1,h2,h3,h4,h5,h6,.gbl,.gbl,.gbl,.gbl,.gbl,.gbl {
+  font-family: 'go bold light', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #00b2a2;
+}
+
+h1.extra_large {
+	font-size: 850%;
+	font-weight: 900;
+
+}
+h1.birthday {
+	font-size: 1500%;
+	font-weight: 900;
+
+}
+
+/*########BUTTON STYLING#####*/
+
+.dropdown {
+	color: none;
+}
+
+.space {
+	padding: 10px 5px;
+	background-color: transparent;
+	border: none;
+	color: #00b2a2;
+	font-family: 'go bold', Helvetica, Arial, sans-serif;
+	font-size: 200%;
+	font-weight: bolder;
+}
+
+a:hover{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
