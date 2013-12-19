@@ -7,7 +7,7 @@ class Birthdate
 
 	def initialize(params)
 	# def initialize
-		params = {"month" => "10", "date" => "05"}
+	# 	params = {"month" => "10", "date" => "05"}
 		@month = params["month"].to_i
 		@date = params["date"].to_i
 	end
@@ -18,13 +18,17 @@ class Birthdate
 
 	def compare
 		t = Time.new
-		t_2 = t.strftime("%I:%M")
-		time_split = t_2.split(/(.*)\:(.*)/)
+		t_2 = t.strftime("%m-%d")
+		time_split = t_2.split(/(.*)\-(.*)/)
+		# time_split
 		split_hour = time_split[1].to_i
+		# split_hour
 		split_minute = time_split[2].to_i
+		# split_minute
 		@answer = split_hour + split_minute
 
-		# if @converted == answer
+
+		# if @converted == @answer
 		# 	puts "woo hoo!"
 		# else 
 		# 	puts "you worked around it!"

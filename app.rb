@@ -15,14 +15,13 @@ module Birthday
 			date = Birthdate.new(params)
 			date.convert_answer
 			date.compare
-			# today = Time.now
-			
-			if @converted == @answer
-				erb :birthday
-			else
-				erb :not_birthday
-			end
-			# erb :results
+		
+			# if @converted == @answer
+			# 	erb :birthday
+			# else
+			# 	erb :not_birthday
+			# end
+			erb :results
 		end
 
 	end#<---this is the end of the class
